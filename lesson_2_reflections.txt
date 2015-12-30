@@ -1,0 +1,8 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+A: A ".git" directory will be created which contains version information.
+We need to do this, so that it no longer only contains current files but
+different versions of the files as well.
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+A: Staging area can contain files from different working directories.
+It prepares for a commit.
