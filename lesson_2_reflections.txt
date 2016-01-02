@@ -6,3 +6,6 @@ different versions of the files as well.
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 A: Staging area can contain files from different working directories.
 It prepares for a commit.
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: Can edit multiple files at the same time, but only do "git add" etc. for files that belong to the same logical change.
