@@ -9,3 +9,6 @@ It prepares for a commit.
 
 Q: How can you use the staging area to make sure you have one commit per logical change?
 A: Can edit multiple files at the same time, but only do "git add" etc. for files that belong to the same logical change.
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: For example, different team members might be working on different feature of the project at the same time. Branching enables such collaboration. 
