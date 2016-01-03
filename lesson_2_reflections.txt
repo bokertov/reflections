@@ -18,3 +18,7 @@ A: Drawing the tree-structure diagrams helps me see the branching point, differe
 
 Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A: The result of merging is that changes from both branches are merged together. That's why it's a converged node in the diagram.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Git's auto merging saves us from trivial merge. However, it still let us
+decide maually on non-trivial merge.
